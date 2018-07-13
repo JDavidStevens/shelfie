@@ -23,6 +23,8 @@ export default class Form extends Component {
     this.setState({ Price: val });
   }
 
+  cancelUpdate() {}
+
   render() {
     return (
       <div>

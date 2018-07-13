@@ -6,6 +6,14 @@ import Form from './component/Form/Form';
 import Header from './component/Header/Header';
 
 class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      inventory: []
+    };
+  }
+
   render() {
     return (
       <div className="App">
